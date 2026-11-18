@@ -1,0 +1,49 @@
+{
+  "watchlist": [
+    {
+      "name": "AK-47 | 红线 (久经沙场)",
+      "market_hash_name": "AK-47 | Redline (Field-Tested)",
+      "max_position": 3
+    },
+    {
+      "name": "M4A1-S | 印花集 (略有磨损)",
+      "market_hash_name": "M4A1-S | Printstream (Minimal Wear)",
+      "max_position": 2
+    },
+    {
+      "name": "AWP | 二西莫夫 (久经沙场)",
+      "market_hash_name": "AWP | Asiimov (Field-Tested)",
+      "max_position": 1
+    },
+    {
+      "name": "沙漠之鹰 | 蓝色层压板 (崭新出厂)",
+      "market_hash_name": "Desert Eagle | Blue Ply (Factory New)",
+      "max_position": 5
+    },
+    {
+      "name": "★ 蝴蝶刀 | 多普勒 (崭新出厂)",
+      "market_hash_name": "★ Butterfly Knife | Doppler (Factory New)",
+      "max_position": 1
+    },
+    {
+      "name": "USP-S | 印花集 (崭新出厂)",
+      "market_hash_name": "USP-S | Printstream (Factory New)",
+      "max_position": 2
+    }
+  ],
+  "strategy": {
+    "dip_threshold_pct": -6.0,
+    "peak_threshold_pct": 8.0,
+    "min_net_margin_pct": 4.0,
+    "fee_pct_total": 2.5,
+    "volume_spike_ratio": 1.8,
+    "cross_market_min_spread_pct": 4.0,
+    "alert_cooldown_hours": 6
+  },
+  "notify": {
+    "enabled": false,
+    "webhook_url": "",
+    "channel": "wecom"
+  },
+  "_comment": "strategy.fee_pct_total 是「买入+卖出」一次完整周转的综合费率(%)，包含平台手续费、提现费与汇率损耗。请按你实际使用的平台调整。notify.webhook_url 填入企业微信/飞书/钉钉群机器人地址即可收到到价提醒。"
+}
